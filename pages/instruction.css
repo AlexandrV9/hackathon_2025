@@ -1,0 +1,17 @@
+@import url(../vendor/normalize.css);
+
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/__navbar/header__navbar.css);
+@import url(../blocks/header/__row-unordered-list/header__row-unordered-list.css);
+@import url(../blocks/header/__row-list-item/header__row-list-item.css);
+@import url(../blocks/header/__link-item/header__link-item.css);
+
+@import url(../blocks/instruction/instruction.css);
+@import url(../blocks/instruction/__box-order/instruction__box-order.css);
+@import url(../blocks/instruction/__step-number/instruction__step-number.css);
+@import url(../blocks/instruction/__step/instruction__step.css);
+@import url(../blocks/instruction/__text/instruction__text.css);
+@import url(../blocks/instruction/__title/instruction__title.css);
