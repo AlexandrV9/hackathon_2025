@@ -1,0 +1,26 @@
+@import url(../vendor/normalize.css);
+
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/header/__navbar/header__navbar.css);
+@import url(../blocks/header/__row-unordered-list/header__row-unordered-list.css);
+@import url(../blocks/header/__row-list-item/header__row-list-item.css);
+@import url(../blocks/header/__link-item/header__link-item.css);
+
+@import url(../blocks/сitizen-poet/__circle/_type/сitizen-poet__circle_type_red.css);
+@import url(../blocks/сitizen-poet/__circle/_type/citizen-poet__circle_type_yellow.css);
+
+@import url(../blocks/leave-a-request/leave-a-request.css);
+@import url(../blocks/leave-a-request/__title/leave-a-request__title.css);
+@import url(../blocks/leave-a-request/__paragraph/leave-a-request__paragraph.css);
+@import url(../blocks/leave-a-request/__wrapper/leave-a-request__wrapper.css);
+@import url(../blocks/leave-a-request/__content/leave-a-request__content.css);
+@import url(../blocks/leave-a-request/__image/leave-a-request__image.css);
+@import url(../blocks/circle/circle.css);
+@import url(../blocks/leave-a-request/__circle/leave-a-request__circle.css);
+
+@import url();
