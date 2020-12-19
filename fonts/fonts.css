@@ -1,0 +1,39 @@
+@font-face {
+  src: url(../fonts/woff2/Roboto-Regular.woff2)format('woff2'),
+    url(../fonts/woff/Roboto-Regular.woff)format('woff'),
+    url(../fonts/ttf/Roboto-Regular.ttf) format('truetype');
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(../fonts/woff2/Roboto-Bold.woff2)format('woff2'),
+  url(../fonts/woff/Roboto-Bold.woff)format('woff'),
+  url(../fonts/ttf/Roboto-Bold.ttf) format('truetype');
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url(../fonts/woff2/Roboto-Black.woff2)format('woff2'),
+    url(../fonts/woff/Roboto-Black.woff)format('woff'),
+    url(../fonts/ttf/Roboto-Black.ttf) format('truetype');
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+
+@font-face {
+  src: url(../fonts/woff2/Merriweather-Regular.woff2)format('woff2'),
+    url(../fonts/woff/Merriweather-Regular.woff)format('woff'),
+    url(../fonts/ttf/Merriweather-Regular.ttf) format('truetype');
+  font-family: 'Merriweather';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url(../fonts/woff2/Merriweather-Bold.woff2)format('woff2'),
+  url(../fonts/woff/Merriweather-Bold.woff)format('woff'),
+  url(../fonts/ttf/Merriweather-Bold.ttf) format('truetype');
+  font-family: 'Merriweather';
+  font-weight: 700;
+}
