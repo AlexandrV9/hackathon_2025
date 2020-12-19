@@ -1,0 +1,8 @@
+.header__row-unordered-list {
+  margin: 0;
+  border-bottom: 2px solid #828282;
+  padding: 40px 0;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}

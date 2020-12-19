@@ -1,0 +1,26 @@
+@import url(../vendor/normalize.css);
+
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/header/__navbar/header__navbar.css);
+@import url(../blocks/header/__row-unordered-list/header__row-unordered-list.css);
+@import url(../blocks/header/__row-list-item/header__row-list-item.css);
+@import url(../blocks/header/__link-item/header__link-item.css);
+
+@import url(../blocks/сitizen-poet/сitizen-poet.css);
+@import url(../blocks/сitizen-poet/__title/сitizen-poet__title.css);
+@import url(../blocks/сitizen-poet/__subtitle/сitizen-poet__subtitle.css);
+@import url(../blocks/circle/circle.css);
+@import url(../blocks/сitizen-poet/__image/сitizen-poet__image.css);
+@import url(../blocks/сitizen-poet/__circle/сitizen-poet__circle.css);
+
+@import url(../blocks/сitizen-poet/__circle/_type/сitizen-poet__circle_type_red.css);
+@import url(../blocks/сitizen-poet/__circle/_type/citizen-poet__circle_type_yellow.css);
+@import url(../blocks/сitizen-poet/__triangle/citizen-poet__triangle.css);
+@import url(../blocks/сitizen-poet/__button/сitizen-poet__button.css);
+
+@import url();
