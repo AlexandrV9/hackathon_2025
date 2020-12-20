@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма заявителя</title>
+  <link rel="stylesheet" href="./pages/formAbout.css">
+  
+  
+</head>
+
+<body class="body">
+  <div class="page">
+  <header class="header">
+          <div class="back-transition"><a href="#" class=""> На главную </a></div>    
+  </header>
+
+    <main class="main">
+
+
+      <h3 class="lead__title"> Информация о заявителе</h3>
+      <h4 class="lead__subtitle">Перед подачей заявления, пожалуйста, заполните информацию о заявителе</h4>
+      <h3> Тип заявителя с ☑ ☐</h3>
+
+      <div class="container">
+      
+        <form>
+          
+          <div class="group-about">      
+            <input type="text" placeholder=" " required minlength="10" maxlength="12">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>ИНН заявителя</label>
+          </div>
+
+          <div class="group-about">      
+            <input type="text" placeholder=" " required minlength="2" maxlength="24">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Фамилия заявителя</label>
+          </div>
+            
+          <div class="group-about">      
+            <input type="text" placeholder=" " required minlength="2" maxlength="24">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Имя заявителя</label>
+          </div>
+          
+            <h5> Введите адрес проживания для предоставления официального ответа </h5>
+
+          <div class="group-about" >      
+            <input type="text" placeholder=" " required minlength="2" maxlength="24">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Место жительства</label>
+          </div>
+
+          <div class="group-about">      
+            <input type="number" placeholder=" " required minlength="11" maxlength="14">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Контактный номер</label>
+          </div>
+
+          <div class="group-about">      
+            <input type="email" placeholder=" " required minlength="2" maxlength="24">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Контактный email</label>
+          </div>
+          
+        </form> 
+        
+      </div>
+
+      <button class="button_about button_title">Подача обращения</button>
+
+
+    </main>
+
+</div>
+
+</body>
+</html>

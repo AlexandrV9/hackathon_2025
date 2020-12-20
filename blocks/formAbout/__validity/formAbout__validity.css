@@ -1,0 +1,44 @@
+input:not(:placeholder-shown):invalid, 
+textarea:not(:placeholder-shown):invalid{
+  border-bottom: 2px solid #F44336;
+}
+
+input:not(:placeholder-shown):invalid ~ label, 
+textarea:not(:placeholder-shown):invalid ~ label{
+  color: #F44336;
+}
+
+input:not(:placeholder-shown):invalid ~ .highlight, 
+textarea:not(:placeholder-shown):invalid ~ .highlight{
+  background: #F44336;
+}
+
+input:not(:placeholder-shown):invalid ~ .bar::after,
+input:not(:placeholder-shown):invalid ~ .bar::before, 
+textarea:not(:placeholder-shown):invalid ~ .bar::after,
+textarea:not(:placeholder-shown):invalid ~ .bar::before{
+  background: #F44336;
+}
+
+
+input:not(:placeholder-shown):valid, 
+textarea:not(:placeholder-shown):valid{
+  border-bottom: 2px solid #4CAF50;
+}
+
+input:not(:placeholder-shown):valid ~ label, 
+textarea:not(:placeholder-shown):valid ~ label{
+  color: #4CAF50;
+}
+
+input:not(:placeholder-shown):valid ~ .highlight, 
+textarea:not(:placeholder-shown):valid ~ .highlight{
+  background: #4CAF50;
+}
+
+input:not(:placeholder-shown):valid ~ .bar::after,
+input:not(:placeholder-shown):valid ~ .bar::before, 
+textarea:not(:placeholder-shown):valid ~ .bar::after,
+textarea:not(:placeholder-shown):valid ~ .bar::before{
+  background: #4CAF50;
+}

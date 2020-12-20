@@ -1,0 +1,21 @@
+
+.button_about {
+    margin: 0 50px 0 750px;
+    background: #FA9746;
+    }
+
+.button_title {
+    width: 350px;
+    height: 72px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 37px;
+    
+    position: relative;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}

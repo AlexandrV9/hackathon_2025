@@ -1,0 +1,12 @@
+.fromRequest__title {
+    display: flex;
+    width: 1000px;
+    height: 46px;
+    margin: 20px 0;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #070707;
+  }
