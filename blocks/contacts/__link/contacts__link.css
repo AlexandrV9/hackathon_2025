@@ -1,0 +1,14 @@
+.contacts__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-family: 'Roboto',
+    serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+}
