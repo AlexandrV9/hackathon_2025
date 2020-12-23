@@ -1,0 +1,11 @@
+.instruction__text {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #070707;
+  max-width: 210px;
+  text-align: center;
+  margin-top: 12px;
+}

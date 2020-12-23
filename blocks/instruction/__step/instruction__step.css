@@ -1,0 +1,19 @@
+.instruction__step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.instruction__step::before {
+  border-top: 1px solid #113366;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  z-index: -1;
+}

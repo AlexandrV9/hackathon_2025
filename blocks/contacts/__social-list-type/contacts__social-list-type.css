@@ -1,0 +1,9 @@
+.contacts__social-list-type {
+  margin-top: 44px;
+  list-style: none;
+  display: flex;
+}
+
+.contacts__social-list-type:last-of-type {
+  margin-top: 20px;
+}
