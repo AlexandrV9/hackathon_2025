@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Информация об обращении</title>
+  <link rel="stylesheet" href="./pages/formRequest.css">
+</head>
+
+<body class="body">
+    
+    <div class="page">
+        <header class="header">
+            <div class="back-transition"><a href="#" class=""> Назад </a></div>    
+          </header>
+      
+          <main class="main">
+            <h3 class="lead__title"> Информация об обращении</h3>
+            <h4 class="lead__subtitle">Заполните подробную информацию о своем обращении</h4>
+            <h3> Вид обращения с ☑ ☐</h3>
+
+            <h4 class="fromRequest__title">Обращение можно отправить только используя бессмертные строки русских классиков. 
+              В&nbsp;поле&nbsp;ввода&nbsp;вводите ключевые слова по теме своего обращения, наша база сгенирирует стихотворение по ним.</h4>
+   
+            <div class="container">
+         
+                <form>
+                  
+                  <div class="group-req">      
+                    <input type="text" placeholder=" " required minlength="2" maxlength="40">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Ключевые слова</label>
+                  </div>
+        
+                  <div class="group-req">      
+                    <input type="text" placeholder=" " required minlength="2" maxlength="40">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Район проблемы</label>
+                  </div>              
+        
+                  <div class="group-req">      
+                    <textarea type="text" placeholder=" " minlength="2" maxlength="40"></textarea>
+                    <span class="bar"></span>
+                    <span class="highlight"></span>
+                    <label>Обращение</label>
+                  </div>
+                  
+                </form>
+                     
+              </div>
+        
+              <button class="button_request button_title-request">Оставить обращение</button>
+          </main>
+      
+      </div>
+
+</body>
+</html>

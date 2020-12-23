@@ -1,0 +1,28 @@
+label,
+input:placeholder-shown ~ label, 
+textarea:placeholder-shown ~ label {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+  z-index: 1;
+}
+
+input:focus ~ label,
+textarea:focus ~ label,
+input:not(:placeholder-shown) ~ label,
+textarea:not(:placeholder-shown) ~ label {
+  display: flex;
+  flex-direction: column;
+  left:-300px;
+  font-size:20px;
+  line-height: 23.4px;
+  font-weight: 400;
+  color:#5264AE;
+}

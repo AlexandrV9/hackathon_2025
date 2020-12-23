@@ -1,0 +1,32 @@
+.highlight {
+    position:absolute;
+    height:1.6em; 
+    width:100px; 
+    top:10px; 
+    left:0;
+    pointer-events:none;
+    opacity:0;
+    background: #5264AE 
+  }
+  
+  
+  input:focus ~ .highlight, 
+  textarea:focus ~ .highlight{
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+  }
+  
+  
+  @-webkit-keyframes inputHighlighter {
+      from { opacity: .5; }
+    to 	{ width:0; opacity: 0; }
+  }
+  @-moz-keyframes inputHighlighter {
+      from { opacity: .5; }
+    to 	{ width:0; opacity: 0; }
+  }
+  @keyframes inputHighlighter {
+      from { opacity: .5; }
+    to 	{ width:0; opacity: 0; }
+  }
